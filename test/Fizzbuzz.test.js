@@ -16,7 +16,7 @@ describe("Refactor de la lectura del archivo", () =>{
     test('Caso de prueba 2: Obtener el numero de los nombres de los explorers en el curso de java',() =>{
         const curso = ExplorerService.getExplorersUsernamesByMission(explorers, "java")
         const long = curso.length
-        expect(long).toBe(4)
+        expect(long).toBe(5)
     });
 
     test('Caso de prueba 3: FIZZBUZZ',() =>{
