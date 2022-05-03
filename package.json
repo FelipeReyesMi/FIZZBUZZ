@@ -1,0 +1,23 @@
+{
+  "name": "FIZZBUZZ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelipeReyesMi/FIZZBUZZ.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelipeReyesMi/FIZZBUZZ/issues"
+  },
+  "homepage": "https://github.com/FelipeReyesMi/FIZZBUZZ#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}
