@@ -25,5 +25,12 @@ describe("Refactor de la lectura del archivo", () =>{
         const res = curso.trick;
         expect(res).toBe("FIZZBUZZ");
     });
+
+    test("Caso de prueba 4: FIZZBUZZ con parametro number",() =>{
+        const alumno = 15;
+        const curso = FizzbuzzService.applyValidationInNumber(alumno);
+        const res = curso;
+        expect(res).toBe("FIZZBUZZ");
+    });
 });
 
