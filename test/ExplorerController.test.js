@@ -1,4 +1,4 @@
-const ExplorerController = require('./../lib/controllers/ExplorerController')
+const ExplorerController = require("./../lib/controllers/ExplorerController");
 const Reader = require("./../lib/utils/Reader");
 const alumnos =  Reader.readJsonFile("explorers.json");
 
