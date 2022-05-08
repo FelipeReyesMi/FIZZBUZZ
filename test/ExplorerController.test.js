@@ -8,6 +8,9 @@ describe("Pruebas de ExplorerController", () =>{
         const long = curso.length;
         expect(long).toBe(5);
     });
-
+    test("Pruevas para Open Source", () => {
+        const explorersInNode = ExplorerController.getExplorersStackByMission("elm");
+        expect(explorersInNode.length).toBe(2);
+    });
     
 });
